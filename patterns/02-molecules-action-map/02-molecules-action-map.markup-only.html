@@ -1,0 +1,51 @@
+<section class="ma__action-map">
+    <div 
+  class="ma__google-map" 
+  aria-hidden="true" 
+  role="presentation">
+  <div class="ma__google-map__map js-google-map"></div>
+    <script>
+    var googleMapData = googleMapData || [];
+
+    googleMapData.push({
+      map: {
+        center: {
+          lat: 42.366565,
+          lng: -71.05894
+        },
+        zoom: 16
+      },
+      markers: [
+              {
+          position: {
+            lat: 42.366565,
+            lng: -71.05894 
+          },
+          label: "A", // single character only
+          infoWindow: {
+            name: "Department of Conservation and Recreation", // raw was needed to prevent rendering ascii characters
+            phone: "16176261250",
+            fax: "16176261351",
+            email: "mass.parks@state.ma.us",
+            address: "251 Causeway Street, Suite 900<br>Boston, MA 02114-2104"
+          }
+        },
+              {
+          position: {
+            lat: 42.358795,
+            lng: -71.063858 
+          },
+          label: "B", // single character only
+          infoWindow: {
+            name: "Department of Recreation and Fun", // raw was needed to prevent rendering ascii characters
+            phone: "16176261250",
+            fax: "",
+            email: "mass.parks@state.ma.us",
+            address: "24 Beacon St<br>Boston, MA 02133"
+          }
+        }
+            ]
+    });
+  </script>
+</div>
+</section>

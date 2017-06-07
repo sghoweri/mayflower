@@ -5,12 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="/assets/css/index-generated.css?1494871884" media="all" />
-    <link class="js-base-theme" rel="stylesheet" href="/assets/css/base-theme-generated.css?1494871884" media="all" />
-    <script>
-      var baseThemeCss="/assets/css/base-theme-generated.css";
-      var govThemeCss="/assets/css/gov-theme-generated.css?";
-    </script>
+    <link rel="stylesheet" href="/assets/css/index-generated.css?1493129505" media="all" />
+    <link rel="stylesheet" href="/assets/css/base-theme-generated.css?1493129505" media="all" />
 
     <script src="/assets/js/vendor/modernizr.js"></script>
 
@@ -22,10 +18,10 @@
 <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 <meta http-equiv="pragma" content="no-cache" />
 
-<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1494871884" media="all">
-<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1494871884" media="all" />
+<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1493129505" media="all">
+<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1493129505" media="all" />
     <!-- this file is just for pattern lab style guide styling -->
-    <link rel="stylesheet" href="/assets/css/pattern-scaffolding-generated.css?1494871884" media="all" />
+    <link rel="stylesheet" href="/assets/css/pattern-scaffolding-generated.css?1493129505" media="all" />
     <!-- End Pattern Lab -->
     <script type="application/ld+json">
       { 
@@ -67,35 +63,26 @@
     </script>  
   </head>
   <body class="" vocab="http://schema.org/" typeof="WebPage">
-<section class="ma__image-promo ">
-      <div class="ma__image-promo__image"
-              style="flex-basis: 190px"
-      >
-              <a href="#">
-                      <img 
-    class="ma__image"
-    alt="placeholder image" 
-    src="/assets/images/placeholder/190x107.png" 
-    height="107" 
-    width="190" />
-              </a>
-          </div>
-    <div class="ma__image-promo__details">
+<section class="ma__image-promo">
+            <a href="#">
+        <div class="ma__image-promo__image">
+      <img alt="placeholder image" src="/assets/images/placeholder/190x107.png">
+    </div>
+          </a>
+        <div class="ma__image-promo__details">
     <h2 class="ma__image-promo__title">
-                            <span class="ma__decorative-link">
+                      <span class="ma__decorative-link">
   <a 
     href="#" 
     class="js-clickable-link"
             >Activity Title&nbsp;<svg aria-hidden="true" id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="18" viewBox="0 0 16 18"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M983.721 1887.28L983.721 1887.28L986.423 1890L986.423 1890L986.423 1890L983.721 1892.72L983.721 1892.72L978.318 1898.17L975.617 1895.45L979.115 1891.92L971.443 1891.92L971.443 1888.0700000000002L979.103 1888.0700000000002L975.617 1884.5500000000002L978.318 1881.8300000000002Z " transform="matrix(1,0,0,1,-971,-1881)"></path></svg></a>
 </span>
           </h2>
-                  <div class="ma__image-promo__description">
-                <section 
-  class="ma__rich-text js-ma-rich-text"
-  >
-          <p>Explicabo itaque possimus dignissimos? Repudiandae tempore, fugit illum? Iure error omnis eveniet eius iste molestias. Veritatis provident hic voluptate voluptatibus ullam accusantium, obcaecati tempora soluta praesentium accusamus sed dicta sapiente.</p>  
-  </section>      </div>
-              <div class="ma__image-promo__link">
+        <div class="ma__image-promo__description">
+              <section class="ma__rich-text js-ma-rich-text">
+      <p>Explicabo itaque possimus dignissimos? Repudiandae tempore, fugit illum? Iure error omnis eveniet eius iste molestias. Veritatis provident hic voluptate voluptatibus ullam accusantium, obcaecati tempora soluta praesentium accusamus sed dicta sapiente.</p>  
+  </section>    </div>
+          <div class="ma__image-promo__link">
                 <span class="ma__decorative-link">
   <a 
     href="#" 
@@ -109,7 +96,7 @@
   
     <!--DO NOT REMOVE-->
     <script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">
-  {"cssEnabled":false,"lineage":[],"lineageR":[],"patternBreadcrumb":{"patternType":"molecules"},"patternDesc":"<p>Description: An illustrated list where each item displays an image, title, description and a link to further information.<\/p>\n\n<h2>State: Alpha<\/h2>\n\n<h3>Notes<\/h3>\n\n<ul>\n<li>The image is 190px wide with a variable height.<\/li>\n<li>Set location.map to true to create a JS link to interact with a google map.<\/li>\n<\/ul>\n\n<h3>Used in:<\/h3>\n\n<ul>\n<li><a href=\"?p=molecules-action-activities\">@molecules\/action-activities<\/a><\/li>\n<\/ul>\n\n<h3>Required Variables<\/h3>\n\n<pre><code>imagePromo: {\n  title: {\n    text: \n      type: string\/required,\n    href: \n      type: string(url)\/optional\n    type:\n      type: string\/optional (\"external\")\n  } \n  image: (optional) {  \n    src:\n      type: string(path)\/required\n    alt: \n      type: string\/required - describes the image\n    href: \n      type: string(url)\/optional\n  },\n  description: {\n    type: see [@organisms\/by-author\/rich-text](?p=organisms-rich-text) file\n  },\n  link: (optional) {\n    type: see [@atoms\/decorative-link](?p=atoms-decorative-link) file\n  },\n  location (optional) : {\n    text: \n      type: string\/optional\n    map:\n      type: boolean\n  }\n  phone (optional) {\n    text: \n      type: string\/required\n  }\n}\n<\/code><\/pre>\n","patternExtension":"twig","patternName":"Image Promo","patternPartial":"molecules-image-promo","patternState":"","extraOutput":[]}
+  {"cssEnabled":false,"lineage":[],"lineageR":[],"patternBreadcrumb":{"patternType":"molecules"},"patternDesc":"<p>Description: An illustrated list where each item displays an image, title, description and a link to further information.<\/p>\n\n<h2>State: Alpha<\/h2>\n\n<h3>Notes<\/h3>\n\n<ul>\n<li>The image is 190px wide with a variable height.<\/li>\n<li>Set location.map to true to create a JS link to interact with a google map.<\/li>\n<\/ul>\n\n<h3>Used in:<\/h3>\n\n<ul>\n<li><a href=\"?p=molecules-action-activities\">@molecules\/action-activities<\/a><\/li>\n<\/ul>\n\n<h3>Required Variables<\/h3>\n\n<pre><code>imagePromo: {\n  title: {\n    text: \n      type: string\/required,\n    href: \n      type: string(url)\/optional\n    type:\n      type: string\/optional (\"external\")\n  } \n  (optional) image: {  \n    image:\n      type: string(path)\/required\n    text: \n      type: string\/required - describes the image\n    href: \n      type: string(url)\/optional\n  },\n  description: {\n    type: see [@organisms\/by-author\/rich-text](?p=organisms-rich-text) file\n  },\n  (optional) link: {\n    type: see [@atoms\/decorative-link](?p=atoms-decorative-link) file\n  },\n  (optional) location: {\n    text: \n      type: string\/required\n    map:\n      type: boolean\n  }\n}\n<\/code><\/pre>\n","patternExtension":"twig","patternName":"Image Promo","patternPartial":"molecules-image-promo","patternState":"","extraOutput":[]}
 </script>
 
 <script>
@@ -143,10 +130,10 @@
   }
 </script>
 
-<script id="pl-js-polyfill-insert-1494871884">
+<script id="pl-js-polyfill-insert-1493129505">
   (function() {
     if (self != top) {
-      var cb = '1494871884';
+      var cb = '1493129505';
       var js = [];
       if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
         js.push('styleguide/bower_components/classList.min.js');
@@ -156,10 +143,10 @@
   })();
 </script>
 
-<script id="pl-js-insert-1494871884">
+<script id="pl-js-insert-1493129505">
   (function() {
     if (self != top) {
-      var cb = '1494871884';
+      var cb = '1493129505';
       var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
       scriptLoader.run(js,cb,'pl-js-insert');
     }
@@ -175,51 +162,5 @@
           $('body').addClass('pl__styleguide');
       }
     </script>
-
-    <!-- JS to switch theme colors -->
-    <script>
-      (function(window, document, undefined) {
-        "use strict";
-
-        var forms = document.querySelectorAll('.js-header-search-form');
-        var themeCssEl = document.querySelector('.js-base-theme');
-        var cranberry = false;
-
-        for (var i = 0; i < forms.length; ++i) {
-          forms[i].addEventListener("submit", function(e){
-            e.preventDefault();
-            var color = this.querySelector('.ma__header-search__input').value;
-            if (color === 'cranberry') {
-              if (cranberry) { // revert back to base
-                themeCssEl.setAttribute('href',baseThemeCss);
-                switchClass('ma__colored-heading--cranberry', 'ma__colored-heading--green');
-                switchClass('ma__narrow-template--cranberry', 'ma__narrow-template--green');
-                switchClass('ma__action-card__item--cranberry', 'ma__action-card__item--green');
-                switchClass('ma__page-banner--cranberry', 'ma__page-banner--blue');
-              } else {  // convert to cranberry
-                themeCssEl.setAttribute('href',govThemeCss);
-                switchClass('ma__colored-heading--green', 'ma__colored-heading--cranberry');
-                switchClass('ma__narrow-template--green', 'ma__narrow-template--cranberry');
-                switchClass('ma__action-card__item--green', 'ma__action-card__item--cranberry');
-                switchClass('ma__page-banner--blue', 'ma__page-banner--cranberry');
-              }
-              cranberry = !cranberry;
-            }
-          });
-        }
-
-        function switchClass(source, update) {
-          var el = document.querySelectorAll('.' + source);
-
-          for (var i = 0; i < el.length; ++i) {
-            el[i].classList.remove(source);
-            el[i].classList.add(update);
-          }
-        }
-
-      })(window, document);
-
-    </script>
-
   </body>
 </html>
