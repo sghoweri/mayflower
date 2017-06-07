@@ -2,7 +2,8 @@
       <div class="ma__mapped-locations__header">
                     
 
-  <h2 class="ma__comp-heading  " >
+  <h2 
+    class="ma__comp-heading  "     tabindex="-1">
     All Locations
   </h2>
 
@@ -40,11 +41,12 @@
           },
           label: "A", // single character only
           infoWindow: {
-            name: "Department of Conservation and Recreation", // raw was needed to prevent rendering ascii characters
+            name: "Department\x20of\x20Conservation\x20and\x20Recreation", // raw was needed to prevent rendering ascii characters
             phone: "16176261250",
             fax: "16176261351",
-            email: "mass.parks@state.ma.us",
-            address: "251 Causeway Street, Suite 900<br>Boston, MA 02114-2104"
+            email: "mass.parks\x40state.ma.us",
+            address: "251\x20Causeway\x20Street,\x20Suite\x20900\x3Cbr\x3EBoston,\x20MA\x2002114\x2D2104",
+            directions: ""
           }
         },
               {
@@ -54,11 +56,12 @@
           },
           label: "B", // single character only
           infoWindow: {
-            name: "Department of Recreation and Fun", // raw was needed to prevent rendering ascii characters
+            name: "Department\x20of\x20Recreation\x20and\x20Fun", // raw was needed to prevent rendering ascii characters
             phone: "16176261250",
             fax: "",
-            email: "mass.parks@state.ma.us",
-            address: "24 Beacon St<br>Boston, MA 02133"
+            email: "mass.parks\x40state.ma.us",
+            address: "24\x20Beacon\x20St\x3Cbr\x3EBoston,\x20MA\x2002133",
+            directions: ""
           }
         }
             ]
